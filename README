@@ -1,0 +1,84 @@
+== Core Blog
+
+Blogging for SEO obsessed Rails developers.
+
+== Features
+
+* Articles
+* Pages
+* Comments
+* Per post comments rss
+* Full page caching of articles/pages
+* Anti-spam support: Akismet, dnsbl_check, hidden field check
+* Auto-gallery creation of attached images with alt text support??
+** Alternate, forget attachments and just do sftp. It's for developers after all.
+* Coderay syntax highlighting
+* iPhone interface
+* Search
+* Archives
+
+* Microformats
+** Posts marked up with hAtom
+** One click insertion of microformats into posts/pages: hReview, hResume, hCard, hCalendar
+
+* SEO Optimized
+** Proper h1's
+** Per article/page meta keywords & description
+** Add extra meta tags
+** Google sitemap
+
+* Community
+** Open ID
+** Open Auth
+** Feed submissions
+** Technorati tags
+
+* Admin
+** Integrated into interface, restful
+** Dashboard for drafts and comments management
+** Add extra code into header and foot, i.e. javascript snippets such as Google Analytics or openid delegates
+** Admin full comments rss feed
+** Post new comments to a campfire room
+** Customization through stylesheets or themer plugin
+** Iphone admin interface
+
+== Plugins
+
+* restful_auth
+* attachment_fu
+* scope_out
+* will_paginate
+* acts_as_state_machine
+* acts_as_taggable_on_steroids
+* acts_as_textiled
+* openidauthentication
+* sweeper
+* Google Sitemap plugin
+* tinder
+* Sphinx
+* themer
+
+== Gems
+
+* ruby-openid
+
+== Settings
+
+* Blog Title
+* Blog tagline
+* Blog URL
+* RSS URL
+* Extra header/footer code
+* Akistmet key
+* Campfire login & room
+
+== Other/Issues
+
+* timezone support
+* date picking
+* Dashboard for comments, drafts, etc
+* Two layouts? admin/application
+* Admin menu system in javascript?
+* Associating images to articles/pages
+* Robots.txt - What to exclude? Provide an editor?
+* Drag and Drop ordering of pages
